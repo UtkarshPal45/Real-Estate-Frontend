@@ -11,7 +11,7 @@ export default function SearchBar() {
     type: "buy",
     location: "",
     minPrice: "0",
-    maxPrice: "0",
+    maxPrice: "1000000",
   })
 
   const switchType= (val)=>{
