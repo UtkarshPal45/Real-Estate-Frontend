@@ -28,6 +28,7 @@ function Login() {
       })
       
       //localStorage.setItem("user",JSON.stringify(res.data))
+      console.log(res.cookie) //
       updateUser(res.data)
       navigate("/")
     } catch (err) {
